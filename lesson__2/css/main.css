@@ -1,0 +1,24 @@
+body {
+    background-color: lightgreen;
+}
+.header {
+    .container {
+        p {
+            text-align: center;
+            color: wheat;
+            font-size: 30px;
+            padding: 10px 20px;
+            border: 1px solid wheat;
+            background-color: darkgrey;
+            transition: 1s;
+            cursor: pointer;
+            border-radius: 50px;
+        }
+        p:hover {
+            border: 1px solid darkgrey;
+            background-color: wheat;
+            color: darkgrey;
+            transition: 1s;
+        }
+    }
+}
