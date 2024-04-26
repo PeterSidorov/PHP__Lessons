@@ -7,6 +7,24 @@
     <title>Document</title>
 </head>
 <body style="background-color: lightcoral">
+<?php
+
+$user = 0;
+
+// || или, && и
+
+$a = 9;
+$b = 5;
+$v =1;
+if ($a > $b || $v > $b) {
+    echo $a . '<h1 style="display: inline"> > </h1>' . $b;
+} else if ($a < $b) {
+    echo $a . '<h1 style="display: inline"> < </h1>' . $b;
+} else if ($a == $b) {
+    echo $a . '<h1 style="display: inline"> = </h1>' . $b;
+};
+
+?>
 
 </body>
 </html>

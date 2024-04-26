@@ -7,7 +7,25 @@
     <title>Document</title>
 </head>
 <body style="background-color: lightcoral">
+<?php
 
+
+$str = '   444   ';
+echo "VAR: $str <br>";
+
+echo "<input type='text'><br>";
+$length = strlen(trim($str));
+// trim убирает пробелы из строки, strlen считает сколько символов в строке
+echo $length;
+"<br>";
+
+
+$passwordUser = "olfdDFDf67dfbf$$$";
+
+echo md5($passwordUser); //Хеширует пароль
+
+
+?>
 </body>
 </html>
 <?php
